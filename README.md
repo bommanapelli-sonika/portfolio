@@ -10,7 +10,7 @@ I enjoy building practical applications, learning new technologies, and solving 
 
 ## 🚀 Live Portfolio
 
-🔗 [https://bommanapelli-sonika.github.io/portfolio/](https://bommanapelli-sonika.github.io/portfolio/)
+🔗 https://bommanapelli-sonika.github.io/portfolio/
 
 ## 🛠️ Technologies Used
 
