@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bommanapelli Sonika - Portfolio</title>
+
+  <style>
+    :root {
+      --bg: #0b1020;
+      --text: #f0f2f8;
+      --muted: #a7b0c3;
+      --accent: #7c4dff;
+      --accent2: #00e5ff;
+      --card: rgba(255, 255, 255, 0.06);
+      --radius: 14px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; }
+    header {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.2rem; font-weight: 800; }
+    header p { font-size: 1.1rem; max-width: 800px; margin: 10px auto; color: #e6e6e6; }
+    .links {
+      display: flex; gap: 12px; justify-content: center; margin-top: 14px; flex-wrap: wrap;
+    }
+    .link-btn {
+      background: rgba(255,255,255,0.18);
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 8px 14px; border-radius: 999px; font-weight: 600;
+      text-decoration: none; color: #ffffff; transition: transform .15s ease, background .15s ease;
+    }
+    .link-btn:hover { transform: translateY(-1px); background: rgba(255,255,255,0.28); }
+
+    section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+    h2 { font-size: 1.6rem; margin-bottom: 20px; border-left: 4px solid var(--accent); padding-left: 10px; }
+    .card { background: var(--card); padding: 20px; border-radius: var(--radius); margin-bottom: 20px; }
+
+    .grid, .skills, .certs, .projects, .internships {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;
+    }
+    .pill, .skill, .cert, .project, .internship {
+      background: rgba(255,255,255,0.08);
+      padding: 12px; border-radius: var(--radius); border-left: 3px solid var(--accent);
+    }
+    .internship strong { display: block; margin-bottom: 6px; }
+    .internship small { color: var(--muted); }
+
+    a { color: var(--accent2); word-break: break-word; }
+    footer { text-align: center; padding: 20px; font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.1); color: var(--muted); }
+  .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* makes the image circular */
+  border: 4px solid #fff; /* white border */
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+
+}
+</style>
+</head>
+<body>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<header>
+  <img src="myprofile.jpg" alt="Bommanapelli Sonika" class="profile-img">
+  <h1>Bommanapelli Sonika</h1>
+  <p>AI  Enthusiast | java Developer | B.Tech Student | Innovating Secure and Intelligent Technologies to Shape a Smarter Future</p>
+  <div class="links">
+    <a class="link-btn" href="https://www.linkedin.com/in/bommanapelli-sonika" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a class="link-btn" href="https://github.com/bommanapelli-sonika" target="_blank" rel="noopener">
+      <i class="fab fa-github"></i>
+    </a>
+    <a class="link-btn" href="mailto:sonika9770@gmail.com">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a class="link-btn" href="https://www.hackerrank.com/profile/sonika9770" target="_blank" rel="noopener">
+      <i class="fab fa-hackerrank"></i>
+    </a>
+  </div>
+</header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      I’m <strong>Bommanapelli Sonika</strong>, a passionate B.Tech student and an <strong>Java enthusiast , python and AI enthusiast</strong> .
+      I love exploring how technology can solve real-world problems and improve everyday life.
+      I’m currently building my skills in <em>Data Structures & Algorithms</em>,Java, web development, and emerging AI Technologies.
+    </div>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Git/GitHub</div>
+      <div class="skill">Node.js</div>
+    </div>
+  </section>
+
+  <section>
+  <h2>Projects</h2>
+  <div class="projects">
+    
+    <div class="project">
+      <strong>Java Projects</strong><br>
+      <a href="https://github.com/bommanapelli-sonika/" target="_blank" rel="noopener">GitHub Repository</a>
+      <p>
+        A collection of Java-based applications built during my internship. Includes projects like an Online Reservation System, 
+        Number Guessing Game, ATM Interface, and more demonstrating core Java concepts and OOP principles.
+      </p>
+    </div>
+
+    <div class="project">
+      <strong>Python Project</strong><br>
+      <a href="https://github.com/bommanapelli-sonika/quote-generator" target="_blank" rel="noopener">Quote Generator</a>
+      <p>
+        
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- NEW: Internships -->
+  <section>
+    <h2>Internships</h2>
+    <div class="internships">
+      <div class="internship">
+        <strong>Deloitte Virtual Internship — Data Analytics & Cybersecurity</strong>
+        <small>(via Forage)</small>
+        <div>Completed hands-on simulations covering data analysis, threat detection, and reporting.</div>
+      </div>
+      <div class="internship">
+        <strong>OASIS Virtual Internship — Java Development</strong>
+        <small>(OIBSIP)</small>
+        <div>Built Java console and GUI apps; practiced OOP, collections, and file I/O.</div>
+      </div>
+      <div class="internship">
+        <strong>CISCO Virtual Internship — Introduction to Cybersecurity & AI</strong>
+        <div>Covered security principles, network threats, basic SOC concepts, and AI fundamentals.</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <div class="certs">
+      <div class="cert">IBM Cybersecurity Fundamentals – IBM SkillsBuild</div>
+      <div class="cert">Introduction to Cybersecurity – Cisco</div>
+      <div class="cert">Java Programming Fundamentals – Infosys</div>
+      <div class="cert">Cyber Job Simulation – Deloitte via Forage</div>
+      <div class="cert">Data Analytics Job Simulation – Deloitte via Forage</div>
+      <div class="cert">GenAI Data Analytics Simulation – TATA via Forage</div>
+      <div class="cert">Data Science & Analytics – HP</div>
+      <div class="cert">Solutions Architecture Job Simulation – AWS</div>
+      <div class="cert">Communication Skills Certificate – TCS iON</div>
+    </div>
+  </section>
+
+  <!-- ✅ Education Section -->
+<section>
+  <h2>Education</h2>
+  <div class="card">
+    <strong>B.Tech (2023–2027)</strong><br>
+    Sumathi Reddy Institute of Technology for Women
+  </div>
+</section>
+  <section>
+    <h2>Contact</h2>
+    <div class="card">
+      <strong>Phone:</strong> 6302979770 <br>
+      <strong>Email:</strong> <a href="mailto:sonika9770@gmail.com">sonika9770@gmail.com</a><br>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bommanapelli-sonika" target="_blank" rel="noopener">linkedin.com/bommanapelli-sonika</a><br>
+      <strong>GitHub:</strong> <a href="https://github.com/bommanapelli-sonika" target="_blank" rel="noopener">github.com/bommanapelli-sonika</a>
+    </div>
+  </section>
+
+  <footer>
+    © <script>document.write(new Date().getFullYear());</script> Bommanapelli Sonika. All rights reserved.
+  </footer>
+
+</body>
+</html>
